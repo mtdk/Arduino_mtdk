@@ -43,4 +43,16 @@ void loop() {
   digitalWrite(LED_BUILTIN, LOW);
   delay(300);
 
+  digitalWrite(LED_BUILTIN, HIGH);  //设置LED灯高电位(亮起)1000ms(1秒)
+  delay(1000);                      //等待1000ms(1秒)
+  digitalWrite(LED_BUILTIN, LOW);   //设置LED灯低电位(关闭)300ms
+  delay(300);
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+  digitalWrite(LED_BUILTIN, LOW);
+  delay(300);
+  digitalWrite(LED_BUILTIN, HIGH);
+  delay(1000);
+  digitalWrite(LED_BUILTIN, LOW);   //设置LED灯低电位(关闭)500ms
+  delay(500);                       //等待500ms
 }
